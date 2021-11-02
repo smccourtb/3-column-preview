@@ -13,13 +13,11 @@ body {
     font-family: "Lexend Deca", sans-serif;
     padding: 0px;
     margin: 0px;
+    min-height: 100vh;
+    justify-content: center;
 }
 
 .container {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
     display: flex;
     width: 38.5rem;
     color: hsla(0, 0%, 100%, 0.75);
@@ -31,31 +29,37 @@ body {
 }
 .card1 > .card-container > button {
     color: hsl(31, 77%, 52%);
+    transition: all 0.2s;
 }
 
 .card1 > .card-container > button:hover {
     background: none;
     border: 1px solid hsl(0, 0%, 95%);
     color: white;
+    cursor: pointer;
 }
 
 .card2 > .card-container > button:hover {
     background: none;
     border: 1px solid hsl(0, 0%, 95%);
     color: white;
+    cursor: pointer;
 }
 
 .card3 > .card-container > button:hover {
     background: none;
     border: 1px solid hsl(0, 0%, 95%);
     color: white;
+    cursor: pointer;
 }
 .card2 > .card-container > button {
     color: hsl(184, 100%, 22%);
+    transition: all 0.2s;
 }
 
 .card3 > .card-container > button {
     color: hsl(179, 100%, 13%);
+    transition: all 0.2s;
 }
 
 .card2 {
